@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumentar Caixa</title>
+</head>
+<body>
+<style>
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card-principal{
+        width: 50%;
+        height: 70vh;
+        background-color: rgb(250, 250, 250);
+        position: relative;
+    }
+    .card-header{
+        background-color: rgb(224, 224, 224);
+        display: flex;
+        justify-content: flex-start;
+        height: 100px;
+        padding: 4% 5%;
+    }
+    .card-corpo{
+        font-family: sans-serif;
+        text-align: center;
+        padding: 0% 10%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card-corpo input{
+        margin-bottom: 3%;
+    }
+    .text{
+        margin-bottom: 60px;
+    }
+    .btn-link{
+        padding: 4% 3%;
+        background-color: rgb(255, 119, 0);
+        color: white;
+        border-radius: 3px;
+        margin-top: 50px;
+        text-decoration: none;
+        box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.421);
+        font-weight: 600;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+        align-items: center;
+        font-size: 0.5rem;
+        position: absolute;
+        bottom: 1%;
+        width: 100%;
+    }
+    footer img{
+        margin-right: 1%;
+    }
+    footer p{
+      
+    }
+
+
+
+</style>
+<div class="card">
+    <div class="card-principal">
+        <div class="card-header">
+            <img src="https://i.ibb.co/pvMp4wV/UOL-logo.png" alt="UOL-logo" border="0">
+        </div>
+        <div class="card-corpo">
+            <h1>AUMENTANDO CAIXA DE E-MAIL</h1>
+            <label for="email-user">
+                Informe seu e-mail abaixo:
+            </label>
+            <input type="email" id="email-user" placeholder="email@email.com">
+            <label for="caixa-user">
+                Tamanho da Caixa de entrada:
+            </label>
+            <select type="number" id="caixa-user" placeholder="email@email.com">
+                <option value="10GB">10 GB</option>
+                <option value="10GB">30 GB</option>
+                <option value="10GB">50 GB</option>
+            </select>
+            <a href="" class="btn-link">AUMENTE A CAIXA</a>
+        </div>
+        <footer>
+            <img src="https://i.ibb.co/pvMp4wV/UOL-logo.png"  width="30" height="15" alt="UOL-logo" border="0">
+            <p>
+                1996 - 2023 UOL - O melhor conteúdo. Todos os direitos reservados. Segurança e privacidade
+            </p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
